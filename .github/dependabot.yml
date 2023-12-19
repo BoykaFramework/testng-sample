@@ -1,0 +1,16 @@
+version: 2
+updates:
+  - package-ecosystem: "maven"
+    directory: "/"
+    target-branch: "main"
+    open-pull-requests-limit: 100
+    labels:
+      - "java"
+    reviewers:
+      - "boyka-core"
+    schedule:
+      interval: "weekly"
+      timezone: "Asia/Calcutta"
+    groups:
+      dependencies:
+        dependency-type: "production"
