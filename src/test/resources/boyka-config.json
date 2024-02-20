@@ -89,6 +89,9 @@
         "request": true,
         "response": false
       }
+    },
+    "test_json_ph": {
+      "base_uri": "https://jsonplaceholder.typicode.com"
     }
   }
 }
